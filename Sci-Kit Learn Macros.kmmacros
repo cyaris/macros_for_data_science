@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>kmeanskmeans  =  KMeansKMeans((n_clustersn_cluste  = 2)
+kmeans.fit(df.drop('_____', axis = 1))
+kmeans.cluster_centers_</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546803975.538028</real>
+				<key>ModificationDate</key>
+				<real>546819588.32663596</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Cluster - KMeans</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sykm</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>DA912ABD-BC9F-4011-9018-FAABFB4A975A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>rfc = RandomForestClassifier(n_estimators = 600)
+rfc.fit(X_train, y_train)
+y_pred = rfc.predict(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804119.41364098</real>
+				<key>ModificationDate</key>
+				<real>546804131.18884897</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Ensemble - Random Forest</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syrf</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>36B99379-EBBB-425C-A1D9-A4B4B02C1604</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>from sklearn.model_selection import train_test_split
+# from sklearn.cluster import KMeans
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.preprocessing import MinMaxScaler
+# from sklearn.preprocessing import PolynomialFeatures
+# from sklearn.cluster import KMeans
+# from sklearn.linear_model import Lasso
+# from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import Ridge
+# from sklearn.neighbors import KNeighborsClassifier
+# from sklearn.svm import LinearSVC
+# from sklearn.svm import SVC
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.ensemble import RandomForestClassifier
+# from adspy_shared_utilities import plot_decision_tree
+# from adspy_shared_utilities import plot_two_class_knn
+from sklearn import metrics</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546765207.78070998</real>
+				<key>ModificationDate</key>
+				<real>546799185.43186998</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Import Libraries</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;importsy</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>54F63FF1-E583-44BC-80EB-08054727C10F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>linreglinreg  ==  LinearRegressionLinearR ()
+linreg.fit(X_train, y_train)
+y_pred = linreg.predict(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804392.34756505</real>
+				<key>ModificationDate</key>
+				<real>546804439.26702499</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Linear Model - Linear Regression</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sylr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F9598237-C18F-4A8A-8770-12C3E84720C5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>logmodel = LogisticRegression().fit(X_train, y_train)
+y_pred = logmodel.predict(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804172.56807005</real>
+				<key>ModificationDate</key>
+				<real>546804195.78578806</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Linear Model - Logistic Regression</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sylg</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9F699C9C-0B8F-4297-899C-9B70CF0DA1BD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>linridge = Ridge(alpha = 225).fit(X_train_scaled, y_train)
+y_pred = linridge.predict(X_test_scaled)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804470.85371196</real>
+				<key>ModificationDate</key>
+				<real>546804501.27136695</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Linear Model - Ridge Regression</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syrg</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AB9D05E6-1166-4F10-95AD-F95B81027961</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>print('Ridge regression: effect of alpha regularization parameter\n')
+for this_alpha in [0, 1, 10, 20, 50, 100, 200, 225, 250, 500, 750, 1000, 10100, 10200]:
+    linridge = Ridge(alpha = this_alpha).fit(X_train_scaled, y_train)
+    r2_train = linridge.score(X_train_scaled, y_train)
+    r2_test = linridge.score(X_test_scaled, y_test)
+    num_coeff_bigger = np.sum(abs(linridge.coef_) &gt; 1.0)
+    print('alpha = {:.2f}\nnum abs(coeff) &gt; 1.0: {}, \
+r^2 training: {:.2f}, r^2 test: {:.2f}\n'
+         .format(this_alpha, num_coeff_bigger, r2_train, r2_test))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804442.78813398</real>
+				<key>ModificationDate</key>
+				<real>546814803.89864099</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Linear Model - Ridge Regression - Optimization - alpha</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syoprr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>562CA7CC-CC40-4754-A737-CDDF73C367B9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>print(metrics.classification_report(y_test, y_pred))
+print(metrics.confusion_matrix(y_test, y_pred))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546760540.02665198</real>
+				<key>ModificationDate</key>
+				<real>546802832.65401602</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Metrics - Classification Report</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sycr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>02B12402-24A5-4F34-AB9D-25210FD6E5EA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>print(metrics.classification_report(y_test, grid_predictions))
+print(metrics.confusion_matrix(y_test, grid_predictions))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804304.57888901</real>
+				<key>ModificationDate</key>
+				<real>546804322.92114902</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Metrics - Classification Report - Post-Grid Search</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sygcr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>92D9C728-8522-4919-9AF3-8136D85F76EE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>print('Train R^2:', _____.score(X_train, y_train).round(4))
+print('Test  R^2:', _____.score(X_test, y_test).round(4))
+print('MAE:      ', metrics.mean_absolute_error(y_test, y_pred).round(4))
+print('MSE:      ', metrics.mean_squared_error(y_test, y_pred).round(4))
+print('RMSE:     ', np.sqrt(metrics.mean_squared_error(y_test, y_pred)).round(4))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546760307.47790098</real>
+				<key>ModificationDate</key>
+				<real>546819603.00666904</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Metrics - Model Scores</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syms</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1934FB8C-21BE-485E-9118-3DA8186F35A9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>param_grid = {'C': [0.1, 1, 10, 100, 1000], 'gamma': [1, 0.1, 0.01, 0.001]}
+grid = GridSearchCV(SVC(), param_grid, refit = True, verbose = 2)
+grid.fit(X_train_scaled, y_train)
+grid_predictions = grid.predict(X_test_scaled)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804261.68956494</real>
+				<key>ModificationDate</key>
+				<real>546804284.64837599</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Model Selection - Grid Search CV</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sygs</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A48F1E5B-C097-428D-8DCE-0790E9CF9DB8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>error_rate = []
+
+for k in range(1, 40):
+    knn = KNeighborsClassifier(n_neighbors = k)
+    knn.fit(X_train_scaled, y_train)
+    pred_i = knn.predict(X_test_scaled)
+    error_rate.append(np.mean(pred_i != y_test))
+
+plt.figure(figsize = (10, 6))
+
+plt.plot(range(1, 40), error_rate, color = 'grey', 
+         linestyle = 'dashed', marker = 'o',
+         markerfacecolor = 'green', markersize = 7)
+plt.title('Error Rate vs. K Value')
+plt.xlabel('K')
+plt.ylabel('Error Rate');</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546803895.784325</real>
+				<key>ModificationDate</key>
+				<real>546812273.21065903</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Neighbors - KNeighbors - Optimization - n_neighbors</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syopknn</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>07CB3406-6886-403D-A4C9-FEE20408B5E3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>knn = KNeighborsClassifier(n_neighbors = 5)
+knn.fit(X_train_scaled, y_train)
+y_pred = knn.predict(X_test_scaled)
+# print('knn.coef_\n', knn.coef_)
+# print('knn.intercept_\n', knn.intercept_)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546803842.39847505</real>
+				<key>ModificationDate</key>
+				<real>546803879.60746002</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Neighbors - KNeighborsClassifier</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syknn</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8AA5EB4D-D8AA-41F9-8CB8-A3D8EC8AF5FC</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>polypoly  ==  PolynomialFeaturesPolynomi (degree = 2)
+X_F1_poly = poly.fit_transform(X_F1)
+X_train, X_test, y_train, y_test = train_test_split(X_F1, y_F1, test_size = 0.4, random_state = 101)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804524.29803002</real>
+				<key>ModificationDate</key>
+				<real>546804559.92111897</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Processing - Polynomial Features</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sypf</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0DE97FED-7F00-4FC9-8FDA-607157AE0C1C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>scaler = MinMaxScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546799075.08138096</real>
+				<key>ModificationDate</key>
+				<real>546802818.69166696</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Scaler - MinMax Scaler</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;symsc</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C7D1F146-2FDC-4FF2-8402-439F426CCD74</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>scaler = StandardScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763922.00241804</real>
+				<key>ModificationDate</key>
+				<real>546802822.61791897</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Scaler - Standard Scaler</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syssc</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CEFABC31-D619-4DE3-85AD-81DE965B18DD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>svc_model = SVC()
+svc_model.fit(X_train_scaled, y_train)
+y_pred = svc_model.predict(X_test_scaled)
+# print('svc_model.coef_\n', svc_model.coef_)
+# print('svc_model.intercept_\n', svc_model.intercept_)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804229.67352605</real>
+				<key>ModificationDate</key>
+				<real>546813322.70094299</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – SVM - C-Support Vector Classification</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sysvc</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>DC52C9E2-009A-472D-89BA-3EA66721703E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>X = 
+y = 
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.40, random_state = 101)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>545705303.34734499</real>
+				<key>ModificationDate</key>
+				<real>546799178.39958894</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Train Test Split</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sytts</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>908C46F5-82E6-4D59-A2F3-D822A015B292</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>dtreedtree  =  DecisionTreeClassifierDecisio (max_depth = 3)
+dtree.fit(X_train, y_train)
+y_pred = dtree.predict(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804739.76725399</real>
+				<key>ModificationDate</key>
+				<real>546804799.91840506</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Tree - Decision Tree</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sydt</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C0EA4F10-5A80-4D8F-9647-D23E44FABAF6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>scores = []
+
+for m in range(1, 40):
+    dtree = DecisionTreeClassifier(max_depth = m)
+    dtree.fit(X_train, y_train)
+    y_pred = dtree.predict(X_test)
+    scores.append(dtree.score(X_test, y_test))
+
+plt.figure(figsize = (10, 6))
+
+plt.plot(range(1, 40), scores, color = 'grey', 
+         linestyle = 'dashed', marker = 'o',
+         markerfacecolor = 'green', markersize = 7)
+plt.title('Test R^2 vs. Max Depth Value')
+plt.xlabel('Max Depth')
+plt.ylabel('Test R^2');</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804058.36126804</real>
+				<key>ModificationDate</key>
+				<real>546812277.87774396</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Tree - Decision Tree - Optimization - max_depth</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syopdt</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7F6F2474-5C02-43E2-BF82-23CB82BCC2CE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+</array>
+</plist>

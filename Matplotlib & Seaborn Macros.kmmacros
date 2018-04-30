@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>fig, axes = plt.subplots(nrows = 4, ncols = 1,
+                         figsize = (12, 25))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762980.59943497</real>
+				<key>ModificationDate</key>
+				<real>546804654.14578295</real>
+				<key>Name</key>
+				<string>Matplotlib – fix, axes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;mplfa</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D9D8AB1D-BA30-4C2B-9773-ACF621E50332</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546760217.38384998</real>
+				<key>ModificationDate</key>
+				<real>546804658.94806802</real>
+				<key>Name</key>
+				<string>Matplotlib – plt.figure</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;mplfig</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>877948B7-8097-48D4-8E79-07813BE678F6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.barplot(x = '_______',  y = '_______', 
+                 data = _______, palette = 'Set2')
+ax.set_xlabel('Features')
+ax.set_ylabel('Feature Importance')
+ax.set_title('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546760774.97237396</real>
+				<key>ModificationDate</key>
+				<real>546819884.04918802</real>
+				<key>Name</key>
+				<string>Seaborn – sns.barplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsbar</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B2BD1AD9-6284-4EDF-955F-82A5BB9BC249</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.boxplot(x = '_______', y = '_______', 
+                    data = _______, palette = 'Set2')
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763308.63336205</real>
+				<key>ModificationDate</key>
+				<real>546819894.33216703</real>
+				<key>Name</key>
+				<string>Seaborn – sns.boxplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsbox</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7408298D-481E-4B5C-AD75-8B152CCA52E4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.countplot(x = '_______', y = '_______', 
+                    data = _______, palette = 'Set2')
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763354.59168506</real>
+				<key>ModificationDate</key>
+				<real>546819898.91924298</real>
+				<key>Name</key>
+				<string>Seaborn – sns.countplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snscount</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2F6DC838-77CB-4488-AC4F-196CF0639BD2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>sns.despine()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546813693.37994897</real>
+				<key>ModificationDate</key>
+				<real>546813710.993186</real>
+				<key>Name</key>
+				<string>Seaborn – sns.despine()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsdspine</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>82EFE33A-1DBB-4210-ACC8-7CA880767A13</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+x = pd.Series(x, name = '_______')
+ax = sns.distplot(_______)
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546813836.46739399</real>
+				<key>ModificationDate</key>
+				<real>546819928.86776996</real>
+				<key>Name</key>
+				<string>Seaborn – sns.distplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsdist</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C0C302D5-9973-4C17-824A-EE927B4F5AE8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (15, 8))
+
+sns.heatmap(df, cmap = 'coolwarm', annot = True)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762676.87908697</real>
+				<key>ModificationDate</key>
+				<real>546799501.97212803</real>
+				<key>Name</key>
+				<string>Seaborn – sns.heatmap</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsheat</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CF8F7C9B-6B79-4624-86E7-CFA200F7CC23</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (15, 8))
+
+sns.heatmap(df.corr(), cmap = 'coolwarm', annot = True)
+plt.title('df.corr()');</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762632.13775897</real>
+				<key>ModificationDate</key>
+				<real>546765195.41004205</real>
+				<key>Name</key>
+				<string>Seaborn – sns.heatmap – df correlation</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsheat2</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4BA42779-7612-4298-97CD-A580E5F8F906</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>ax = sns.JointGrid(x = '_______', y = '_______', 
+                   data = df, space = 0)
+ax.set_axis_labels('_______', '_______')
+ax.plot_joint(sns.kdeplot, cmap = "Blues_d")
+ax.plot_marginals(sns.kdeplot, shade = True);</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763551.30331004</real>
+				<key>ModificationDate</key>
+				<real>546819858.36237299</real>
+				<key>Name</key>
+				<string>Seaborn – sns.jointgrip</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsjointg</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5443E86F-7677-47D7-B032-2FA1B906BE91</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>ax = sns.jointplot(x = '_______',  y = '_______', 
+                   data = _______, kind = 'scatter')
+ax.set_axis_labels('_______')
+ax.plot(sns.regplot, sns.distplot);
+#ax.plot_joint(plt.scatter, edgecolor = "white");</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763462.04804206</real>
+				<key>ModificationDate</key>
+				<real>546819854.15586197</real>
+				<key>Name</key>
+				<string>Seaborn – sns.jointplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsjointp</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>60D6B951-725E-4132-9ECE-DD0880795B19</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.kdeplot(x = '_______', y = '_______', 
+                    n_levels = 30, shade = True)
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546813784.04059398</real>
+				<key>ModificationDate</key>
+				<real>546819850.64724195</real>
+				<key>Name</key>
+				<string>Seaborn – sns.kdeplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snskde</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D81B9ECC-3A55-4050-A649-6068A0E2CA6F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>ax = sns.lmplot(x = '_______', y = '_______', 
+                col = '_______', data = df)
+ax.set_axis_labels('_______', '_______');</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763613.07306302</real>
+				<key>ModificationDate</key>
+				<real>546819846.517277</real>
+				<key>Name</key>
+				<string>Seaborn – sns.lmplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snslm</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>6238C222-AE83-4993-8867-04146D65C275</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>sns.pairplot(df, hue = '_______', palette = 'viridis');</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762727.65461302</real>
+				<key>ModificationDate</key>
+				<real>546819840.86971903</real>
+				<key>Name</key>
+				<string>Seaborn – sns.pairplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snspp</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C838E2E1-BDAB-465D-8C29-B0F783FB26D9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.stripplot(x = '_______', y = '_______', 
+                    data = _______, palette = 'Set2')
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546813732.05703402</real>
+				<key>ModificationDate</key>
+				<real>546819918.17050898</real>
+				<key>Name</key>
+				<string>Seaborn – sns.stripplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsstrip</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>516D6231-438B-4716-951B-A9F8FB93EE5F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.swarmplot(x = '_______', y = '_______', 
+                    data = _______, palette = 'Set2')
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546813734.87087405</real>
+				<key>ModificationDate</key>
+				<real>546819921.10537899</real>
+				<key>Name</key>
+				<string>Seaborn – sns.swarmplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsswarm</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A06266D4-47B9-4DEE-B1DD-E9148215871A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.96819103</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Microsoft Office 2011/Office/Microsoft Graph.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>plt.figure(figsize = (12, 6))
+
+ax = sns.violinplot(x = '_______', y = '_______', 
+                    data = _______, palette = 'Set2')
+ax.set_xlabel('_______')
+ax.set_ylabel('_______')
+ax.set_xticklabels('_______', 
+                   rotation = 45, ha = "right")
+
+plt.tight_layout()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546763264.42336094</real>
+				<key>ModificationDate</key>
+				<real>546819925.22305405</real>
+				<key>Name</key>
+				<string>Seaborn – sns.violinplot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;snsviolin</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9908D4A5-9F13-4A09-8B02-5A3626BFEA17</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Matplotlib &amp; Seaborn</string>
+		<key>ToggleMacroUID</key>
+		<string>B808F665-3604-40C1-8F75-C3FB42B0F0B6</string>
+		<key>UID</key>
+		<string>E92786C2-D396-45DB-8688-A1B258FD8944</string>
+	</dict>
+</array>
+</plist>
