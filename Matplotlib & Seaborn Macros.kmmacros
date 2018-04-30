@@ -465,7 +465,7 @@ plt.title('df.corr()');</string>
 				<key>CreationDate</key>
 				<real>546762632.13775897</real>
 				<key>ModificationDate</key>
-				<real>546765195.41004205</real>
+				<real>546822739.47954297</real>
 				<key>Name</key>
 				<string>Seaborn – sns.heatmap – df correlation</string>
 				<key>Triggers</key>
@@ -476,7 +476,7 @@ plt.title('df.corr()');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;snsheat2</string>
+						<string>;snscorrheat</string>
 					</dict>
 				</array>
 				<key>UID</key>
