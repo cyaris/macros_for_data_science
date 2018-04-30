@@ -24,7 +24,7 @@
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
-						<string>. ~/.venvs/lpthw/bin/activate</string>
+						<string>. ~/.venvs/________/bin/activate</string>
 					</dict>
 					<dict>
 						<key>IsDisclosed</key>
@@ -46,7 +46,7 @@
 				<key>CreationDate</key>
 				<real>541362697.15877998</real>
 				<key>ModificationDate</key>
-				<real>546799870.79734004</real>
+				<real>546823118.69756198</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – Activate Virtual Environment</string>
 				<key>Triggers</key>
@@ -61,7 +61,7 @@
 					</dict>
 				</array>
 				<key>UID</key>
-				<string>DCDE2491-F5EB-48FC-9F45-AE720E2BF57D</string>
+				<string>B9D0981E-0C15-4C3C-B0F8-149C3EEFD0DB</string>
 			</dict>
 		</array>
 		<key>Name</key>
