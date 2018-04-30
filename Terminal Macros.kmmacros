@@ -418,7 +418,7 @@
 				<key>CreationDate</key>
 				<real>540593141.86443102</real>
 				<key>ModificationDate</key>
-				<real>546809883.34933305</real>
+				<real>546822384.63897204</real>
 				<key>Name</key>
 				<string>Terminal – Find File</string>
 				<key>Triggers</key>
@@ -429,7 +429,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;ex</string>
+						<string>;find</string>
 					</dict>
 				</array>
 				<key>UID</key>
