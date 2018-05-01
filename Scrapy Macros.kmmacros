@@ -189,9 +189,9 @@
 				<key>CreationDate</key>
 				<real>546800903.25098395</real>
 				<key>ModificationDate</key>
-				<real>546820162.64000201</real>
+				<real>546826722.928936</real>
 				<key>Name</key>
-				<string>Scrapy – Xpath - /@href()</string>
+				<string>Scrapy – Xpath - /@href</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
