@@ -465,9 +465,9 @@ plt.title('df.corr()');</string>
 				<key>CreationDate</key>
 				<real>546762632.13775897</real>
 				<key>ModificationDate</key>
-				<real>546822739.47954297</real>
+				<real>546836655.42927301</real>
 				<key>Name</key>
-				<string>Seaborn – sns.heatmap – df correlation</string>
+				<string>Seaborn – sns.heatmap – df.corr</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -508,7 +508,7 @@ plt.title('df.corr()');</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
-						<string>ax = sns.JointGrid(x = '_______', y = '_______', 
+						<string>ax = sns.jointgrid(x = '_______', y = '_______', 
                    data = df, space = 0)
 ax.set_axis_labels('_______', '_______')
 ax.plot_joint(sns.kdeplot, cmap = "Blues_d")
@@ -518,9 +518,9 @@ ax.plot_marginals(sns.kdeplot, shade = True);</string>
 				<key>CreationDate</key>
 				<real>546763551.30331004</real>
 				<key>ModificationDate</key>
-				<real>546819858.36237299</real>
+				<real>546836683.619241</real>
 				<key>Name</key>
-				<string>Seaborn – sns.jointgrip</string>
+				<string>Seaborn – sns.jointgrid</string>
 				<key>Triggers</key>
 				<array>
 					<dict>

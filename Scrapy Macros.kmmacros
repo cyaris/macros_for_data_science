@@ -30,7 +30,7 @@
 				<key>CreationDate</key>
 				<real>546800989.67551696</real>
 				<key>ModificationDate</key>
-				<real>546808741.30328298</real>
+				<real>546838003.90880597</real>
 				<key>Name</key>
 				<string>Scrapy – scrapy shell</string>
 				<key>Triggers</key>
@@ -41,7 +41,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;scrsh</string>
+						<string>;scsh</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -83,7 +83,7 @@
 				<key>CreationDate</key>
 				<real>546800972.43741906</real>
 				<key>ModificationDate</key>
-				<real>546808743.69888902</real>
+				<real>546838005.47661901</real>
 				<key>Name</key>
 				<string>Scrapy – scrapy startproject </string>
 				<key>Triggers</key>
@@ -94,7 +94,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;scrsp</string>
+						<string>;scsp</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -136,7 +136,7 @@
 				<key>CreationDate</key>
 				<real>546812027.18641198</real>
 				<key>ModificationDate</key>
-				<real>546812040.03763998</real>
+				<real>546838007.21594095</real>
 				<key>Name</key>
 				<string>Scrapy – Xpath - .extract()</string>
 				<key>Triggers</key>
@@ -147,7 +147,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;screx</string>
+						<string>;scex</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -189,7 +189,7 @@
 				<key>CreationDate</key>
 				<real>546800903.25098395</real>
 				<key>ModificationDate</key>
-				<real>546826722.928936</real>
+				<real>546838009.13091397</real>
 				<key>Name</key>
 				<string>Scrapy – Xpath - /@href</string>
 				<key>Triggers</key>
@@ -200,7 +200,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;scr@</string>
+						<string>;sc@</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -242,7 +242,7 @@
 				<key>CreationDate</key>
 				<real>546800882.77760005</real>
 				<key>ModificationDate</key>
-				<real>546808747.64669096</real>
+				<real>546838011.28926396</real>
 				<key>Name</key>
 				<string>Scrapy – Xpath - /text()</string>
 				<key>Triggers</key>
@@ -253,7 +253,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;scrt</string>
+						<string>;sct</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -295,7 +295,7 @@
 				<key>CreationDate</key>
 				<real>545705303.34734499</real>
 				<key>ModificationDate</key>
-				<real>546808749.48409796</real>
+				<real>546838014.15631294</real>
 				<key>Name</key>
 				<string>Scrapy – Xpath - resonse.xpath('</string>
 				<key>Triggers</key>
@@ -306,7 +306,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;scrrx</string>
+						<string>;scrx</string>
 					</dict>
 				</array>
 				<key>UID</key>

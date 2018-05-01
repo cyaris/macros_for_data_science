@@ -396,6 +396,75 @@
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
+						<string>nano </string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827302.28842604</real>
+				<key>ModificationDate</key>
+				<real>546827314.076401</real>
+				<key>Name</key>
+				<string>Terminal – nano</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;;n</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C8D08EF8-B536-4F7C-8A45-9B6FFADCC8EF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>ToggleMacroUID</key>
+		<string>960633E2-A599-4E54-9A5B-4B0E7D0D3D62</string>
+		<key>UID</key>
+		<string>D862612A-5C35-4A62-98B9-F4858F7BAD19</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766112.61740899</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Terminal.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
 						<string>quit()</string>
 					</dict>
 					<dict>

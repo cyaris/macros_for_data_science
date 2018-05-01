@@ -490,7 +490,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546760703.62966597</real>
 				<key>ModificationDate</key>
-				<real>546819970.72801602</real>
+				<real>546837911.14410603</real>
 				<key>Name</key>
 				<string>Pandas – df.concat</string>
 				<key>Triggers</key>
@@ -501,7 +501,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;paconcat</string>
+						<string>;pacon</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -592,9 +592,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808342.55001199</real>
 				<key>ModificationDate</key>
-				<real>546819976.21702397</real>
+				<real>546837889.50578105</real>
 				<key>Name</key>
-				<string>Pandas – df.groupby()</string>
+				<string>Pandas – df.groupby</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -603,7 +603,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfgroupby</string>
+						<string>;dfgby</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -645,7 +645,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808269.73245704</real>
 				<key>ModificationDate</key>
-				<real>546819981.48512495</real>
+				<real>546837894.30915403</real>
 				<key>Name</key>
 				<string>Pandas – df.groupby().agg(aggregations)</string>
 				<key>Triggers</key>
@@ -656,7 +656,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfagggroupby</string>
+						<string>;dfagggby</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -698,7 +698,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808394.50882006</real>
 				<key>ModificationDate</key>
-				<real>546819978.75097096</real>
+				<real>546837874.91652095</real>
 				<key>Name</key>
 				<string>Pandas – df.index.name</string>
 				<key>Triggers</key>
@@ -709,7 +709,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfindexname</string>
+						<string>;dfindexn</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -904,7 +904,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546814279.77305102</real>
 				<key>ModificationDate</key>
-				<real>546819993.22823203</real>
+				<real>546837850.44434094</real>
 				<key>Name</key>
 				<string>Pandas – df.scatter</string>
 				<key>Triggers</key>
@@ -915,7 +915,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfscatter</string>
+						<string>;dfscat</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -956,7 +956,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546814094.50669897</real>
 				<key>ModificationDate</key>
-				<real>546820001.21528494</real>
+				<real>546837852.66857696</real>
 				<key>Name</key>
 				<string>Pandas – df.scatter - Joint Axis</string>
 				<key>Triggers</key>
@@ -967,7 +967,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;df2scatter</string>
+						<string>;df2scat</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -1005,7 +1005,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546813627.46018505</real>
 				<key>ModificationDate</key>
-				<real>546820005.142874</real>
+				<real>546837855.23624301</real>
 				<key>Name</key>
 				<string>Pandas – df.scatter_matrix</string>
 				<key>Triggers</key>
@@ -1016,7 +1016,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfmatscatter</string>
+						<string>;dfmatscat</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -1168,7 +1168,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546762536.38981497</real>
 				<key>ModificationDate</key>
-				<real>546820012.55563295</real>
+				<real>546837925.25121498</real>
 				<key>Name</key>
 				<string>Pandas – pd.agg</string>
 				<key>Triggers</key>
@@ -1179,7 +1179,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;pdag</string>
+						<string>;pdagg</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -1323,9 +1323,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546808052.622527</real>
 				<key>ModificationDate</key>
-				<real>546820020.46426702</real>
+				<real>546837722.42951596</real>
 				<key>Name</key>
-				<string>Pandas – pd.to_datatime</string>
+				<string>Pandas – pd.to_datetime</string>
 				<key>Triggers</key>
 				<array>
 					<dict>

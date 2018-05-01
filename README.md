@@ -5,13 +5,17 @@ Visit https://www.keyboardmaestro.com/main/ to download compatible software for 
 
 Git Macros:
 
+	Git – git add 
 	Git – git commit -m '
 	Git – git push -u origin master
 	Git – git remote add origin
+	Git – more .gitattributes
 	Git – Remove Local Git Repository
 	Git – Undo Commits - reset HEAD~
+	Git Lfs – git lfs ls-files
 	Git Lfs – git lfs migrate import --everything --
 	Git Lfs – git lfs track '*.' - File Extension
+	Git Lfs – git lfs untrack '
 
 Matplotlib & Seaborn Macros: 
 
@@ -23,8 +27,8 @@ Matplotlib & Seaborn Macros:
 	Seaborn – sns.despine()
 	Seaborn – sns.distplot
 	Seaborn – sns.heatmap
-	Seaborn – sns.heatmap – df correlation
-	Seaborn – sns.jointgrip
+	Seaborn – sns.heatmap – df.corr
+	Seaborn – sns.jointgrid
 	Seaborn – sns.jointplot
 	Seaborn – sns.kdeplot
 	Seaborn – sns.lmplot
@@ -46,7 +50,7 @@ Pandas & Numpy Macros:
 	Pandas – df.box
 	Pandas – df.concat
 	Pandas – df.drop
-	Pandas – df.groupby()
+	Pandas – df.groupby
 	Pandas – df.groupby().agg(aggregations)
 	Pandas – df.index.name
 	Pandas – df.line
@@ -60,7 +64,7 @@ Pandas & Numpy Macros:
 	Pandas – pd.agg
 	Pandas – pd.df
 	Pandas – pd.read_csv
-	Pandas – pd.to_datatime
+	Pandas – pd.to_datetime
 
 Plotly & Cufflinks Macros:
 
@@ -80,7 +84,7 @@ Plotly & Cufflinks Macros:
 
 Python (General) Macros:
 
-	Python – Import visualiation Libraries
+	Python – Import Standard Visualiation Libraries
 	Python – Pip Install Package
 	Python – Pip Install User Package
 	Python – Pip Reinstall Current Version
@@ -92,7 +96,7 @@ Python (General) Macros:
 	Python Application – pyscaffolding
 	Python Function – def __init__(self):
 	Python Function – Print
-	Python Module – Adspy Shared_Utilities - plot_decision_tree
+	Python Module – Adspy Shared Utilities - plot_decision_tree
 	Python Module – exit()
 
 Sci-Kit Learn Macros:
@@ -138,6 +142,7 @@ Terminal Macros:
 	Terminal – nano
 	Terminal – quit()
 
+
 Text Macros:
 
 	Text – Commenting - Highlight –> Comment
@@ -146,13 +151,6 @@ Text Macros:
 	Text – File Extension - .ipynb
 	Text – File Extension - .py
 	Text – File Extension - .txt
-	Text – Paste - Formatting Removed (Unstyled/Unformatted Text)
-	Text – Paste - Regular (Styled Text)
-	Text – Paste - Regular (Styled Text)
-	Text – Select All + Copy
-	Text – Select All + Cut
-	Text – Select All + Paste
-	Text – Select All + Paste - Desc Clip
 	Text – utf-8 strict
 
 Virtualenvwrapper Macros:

@@ -30,9 +30,9 @@ import seaborn as sns
 				<key>CreationDate</key>
 				<real>546764034.92195201</real>
 				<key>ModificationDate</key>
-				<real>546764308.60738695</real>
+				<real>546836363.42880094</real>
 				<key>Name</key>
-				<string>Python – Import visualiation Libraries</string>
+				<string>Python – Import Standard Visualiation Libraries</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -41,7 +41,7 @@ import seaborn as sns
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;importviz</string>
+						<string>;importvis</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -746,9 +746,9 @@ import seaborn as sns
 				<key>CreationDate</key>
 				<real>546764962.29913902</real>
 				<key>ModificationDate</key>
-				<real>546800451.32762098</real>
+				<real>546836536.75559402</real>
 				<key>Name</key>
-				<string>Python Module – Adspy Shared_Utilities - plot_decision_tree</string>
+				<string>Python Module – Adspy Shared Utilities - plot_decision_tree</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -757,7 +757,7 @@ import seaborn as sns
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;;asupdt</string>
+						<string>;pltdt</string>
 					</dict>
 				</array>
 				<key>UID</key>

@@ -24,6 +24,59 @@
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
+						<string>git add </string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546837218.86632597</real>
+				<key>ModificationDate</key>
+				<real>546837230.46401703</real>
+				<key>Name</key>
+				<string>Git – git add </string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;gita</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C5A869F2-2F6F-449F-8700-46938D74E51A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Git</string>
+		<key>ToggleMacroUID</key>
+		<string>9641152E-50DD-410D-B13B-F086F11FF4BD</string>
+		<key>UID</key>
+		<string>F0B4B40C-E434-4BA6-B5CF-1FEFE97F87D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766310.56701398</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
 						<string>git commit -m '</string>
 					</dict>
 				</array>
@@ -136,7 +189,7 @@
 				<key>CreationDate</key>
 				<real>546798320.44937301</real>
 				<key>ModificationDate</key>
-				<real>546798354.79310596</real>
+				<real>546837106.81354403</real>
 				<key>Name</key>
 				<string>Git – git remote add origin</string>
 				<key>Triggers</key>
@@ -147,11 +200,64 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;gitremote</string>
+						<string>;gitrem</string>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>52B17198-67F0-4AF4-B343-E4B6DD8DE139</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Git</string>
+		<key>ToggleMacroUID</key>
+		<string>9641152E-50DD-410D-B13B-F086F11FF4BD</string>
+		<key>UID</key>
+		<string>F0B4B40C-E434-4BA6-B5CF-1FEFE97F87D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766310.56701398</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>more .gitattributes</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546836944.355739</real>
+				<key>ModificationDate</key>
+				<real>546836963.344064</real>
+				<key>Name</key>
+				<string>Git – more .gitattributes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;mga</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3005D6A6-5704-45D2-9093-3E87BDBBD36F</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -242,7 +348,7 @@
 				<key>CreationDate</key>
 				<real>546800645.45217204</real>
 				<key>ModificationDate</key>
-				<real>546809530.82673097</real>
+				<real>546837125.78061604</real>
 				<key>Name</key>
 				<string>Git – Undo Commits - reset HEAD~</string>
 				<key>Triggers</key>
@@ -253,11 +359,64 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;gitreseth</string>
+						<string>;git0h</string>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>2C471305-1A80-4853-B79F-EA6014722DD0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Git</string>
+		<key>ToggleMacroUID</key>
+		<string>9641152E-50DD-410D-B13B-F086F11FF4BD</string>
+		<key>UID</key>
+		<string>F0B4B40C-E434-4BA6-B5CF-1FEFE97F87D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766310.56701398</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>git lfs ls-files</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546836830.10315299</real>
+				<key>ModificationDate</key>
+				<real>546836847.28123498</real>
+				<key>Name</key>
+				<string>Git Lfs – git lfs ls-files</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;lfslk</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>38522354-0C1C-43FB-922D-F1ADB6D49CE7</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -364,7 +523,7 @@
 				<key>CreationDate</key>
 				<real>546827019.73890102</real>
 				<key>ModificationDate</key>
-				<real>546827244.13528597</real>
+				<real>546836892.77699995</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs track '*.' - File Extension</string>
 				<key>Triggers</key>
@@ -375,11 +534,64 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;lfstr</string>
+						<string>;lfst</string>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>A770B13C-2CEE-449C-973F-733063088AEA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Git</string>
+		<key>ToggleMacroUID</key>
+		<string>9641152E-50DD-410D-B13B-F086F11FF4BD</string>
+		<key>UID</key>
+		<string>F0B4B40C-E434-4BA6-B5CF-1FEFE97F87D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766310.56701398</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>git lfs untrack '</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546836896.79331505</real>
+				<key>ModificationDate</key>
+				<real>546836913.53621995</real>
+				<key>Name</key>
+				<string>Git Lfs – git lfs untrack '</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;lfsut</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>33E7048E-2279-491C-9001-76F8DD70D696</string>
 			</dict>
 		</array>
 		<key>Name</key>
