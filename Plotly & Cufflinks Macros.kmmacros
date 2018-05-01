@@ -21,8 +21,7 @@
 						<string>InsertText</string>
 						<key>Text</key>
 						<string>trace = go.Scatter(x = '________', y = '________',
-    mode = 'lines',
-    name = 'lines')
+    mode = 'lines', name = 'lines')
 
 data = [trace]
 py.iplot(data, filename = 'scatter-mode')</string>
@@ -31,7 +30,7 @@ py.iplot(data, filename = 'scatter-mode')</string>
 				<key>CreationDate</key>
 				<real>546827718.14427602</real>
 				<key>ModificationDate</key>
-				<real>546828505.20579505</real>
+				<real>546835771.14188802</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – go.scatter Line Plot</string>
 				<key>Triggers</key>
@@ -75,8 +74,7 @@ py.iplot(data, filename = 'scatter-mode')</string>
 						<string>InsertText</string>
 						<key>Text</key>
 						<string>trace = go.Scatter(x = '________', y = '________',
-    mode = 'lines+markers',
-    name = 'lines+markers')
+    mode = 'lines+markers', name = 'lines+markers')
 
 data = [trace]
 py.iplot(data, filename = 'scatter-mode')</string>
@@ -85,7 +83,7 @@ py.iplot(data, filename = 'scatter-mode')</string>
 				<key>CreationDate</key>
 				<real>546827717.45834398</real>
 				<key>ModificationDate</key>
-				<real>546828509.74007905</real>
+				<real>546835758.113361</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – go.scatter Lines + Markers Plot</string>
 				<key>Triggers</key>
@@ -129,8 +127,7 @@ py.iplot(data, filename = 'scatter-mode')</string>
 						<string>InsertText</string>
 						<key>Text</key>
 						<string>trace = go.Scatter(x = '________', y = '________',
-    mode = 'markers',
-    name = 'markers')
+    mode = 'markers', name = 'markers')
 
 data = [trace]
 py.iplot(data, filename = 'scatter-mode')</string>
@@ -139,7 +136,7 @@ py.iplot(data, filename = 'scatter-mode')</string>
 				<key>CreationDate</key>
 				<real>546827716.01771903</real>
 				<key>ModificationDate</key>
-				<real>546828513.47426403</real>
+				<real>546835762.95068705</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – go.scatter Marker</string>
 				<key>Triggers</key>
@@ -188,8 +185,8 @@ py.iplot(data, filename = 'scatter-mode')</string>
     marker = dict(
         size = 10,
         color = np.random.randn(500),
-        colorscale='Viridis',
-        showscale=True)
+        colorscale = 'Viridis',
+        showscale = True)
 
 data = [trace]
 
@@ -204,7 +201,7 @@ py.iplot(fig, filename = 'styled-scatter-with-color-scale')</string>
 				<key>CreationDate</key>
 				<real>546827717.79873598</real>
 				<key>ModificationDate</key>
-				<real>546828552.34386897</real>
+				<real>546836166.308249</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – go.scatter Marker with Color Scale</string>
 				<key>Triggers</key>
@@ -259,7 +256,7 @@ cf.go_offline()</string>
 				<key>CreationDate</key>
 				<real>546765207.78070998</real>
 				<key>ModificationDate</key>
-				<real>546827792.06633103</real>
+				<real>546830178.74058795</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – Import Libraries - Offline</string>
 				<key>Triggers</key>
@@ -270,7 +267,7 @@ cf.go_offline()</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;importplcu</string>
+						<string>;importpc</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -499,6 +496,56 @@ df3.iplot(kind = 'surface', colorscale = 'rdylbu')</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
+						<string>cf.df.heatmap(20,20).iplot(kind = 'heatmap', colorscale = 'spectral', 
+filename='cufflinks/simple-heatmap')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546835967.03923404</real>
+				<key>ModificationDate</key>
+				<real>546836031.92454505</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Heatmap</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplotheat</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>54A4F754-75C9-4BDE-AE9C-09D69FD622BE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
 						<string>df['________'].iplot(kind = 'hist', bins = 25)</string>
 					</dict>
 				</array>
@@ -598,13 +645,13 @@ df3.iplot(kind = 'surface', colorscale = 'rdylbu')</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
-						<string>df[['________','________']].iplot(kind = 'spread')</string>
+						<string>df[['________', '________']].iplot(kind = 'spread')</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546828880.210145</real>
 				<key>ModificationDate</key>
-				<real>546828895.89297795</real>
+				<real>546830136.86241698</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – iPlot - Spread</string>
 				<key>Triggers</key>
