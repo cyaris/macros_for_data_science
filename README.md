@@ -75,7 +75,7 @@ Pandas & Numpy Macros:
 	;np0		Numpy – np.zeros((, ))
 	;pdh		Pandas – .head()
 	;pdin		Pandas – .isnull()
-	;vc			Pandas – .value_counts()
+	;vc		Pandas – .value_counts()
 	;dfarea		Pandas – df.area
 	;pdfloat	Pandas – df.astype(float)
 	;pdint		Pandas – df.astype(int)
@@ -105,9 +105,9 @@ Plotly & Cufflinks Macros:
 	Trigger			Macro
 		
 	go.scatline		Plotly & Cufflinks – go.scatter Line Plot
-	go.scatmline	Plotly & Cufflinks – go.scatter Lines + Markers Plot
+	go.scatmline		Plotly & Cufflinks – go.scatter Lines + Markers Plot
 	go.scatmark		Plotly & Cufflinks – go.scatter Marker
-	go.scatcmark	Plotly & Cufflinks – go.scatter Marker with Color Scale
+	go.scatcmark		Plotly & Cufflinks – go.scatter Marker with Color Scale
 	;importpc		Plotly & Cufflinks – Import Libraries - Offline
 	;iplot3d		Plotly & Cufflinks – iPlot - 3D Surface
 	;iplotbar		Plotly & Cufflinks – iPlot - Bar
@@ -116,7 +116,7 @@ Plotly & Cufflinks Macros:
 	;iplotheat		Plotly & Cufflinks – iPlot - Heatmap
 	;iplothist		Plotly & Cufflinks – iPlot - Histogram
 	;iplotscat		Plotly & Cufflinks – iPlot - Scatter
-	;iplotspread	Plotly & Cufflinks – iPlot - Spread
+	;iplotspread		Plotly & Cufflinks – iPlot - Spread
 
 Python (General) Macros:
 
@@ -124,15 +124,15 @@ Python (General) Macros:
 		
 	;importvis	Python – Import Standard Visualiation Libraries
 	;pdoc		Python – pydoc
-	;py			Python – python3.6
+	;py		Python – python3.6
 	;ipy		Python Application – ipython
-	;jn			Python Application – jupyter notebook
-	;nt			Python Application – nosetests
+	;jn		Python Application – jupyter notebook
+	;nt		Python Application – nosetests
 	;pyscaf		Python Application – pyscaffolding
 	;definit	Python Function – def __init__(self):
-	;pr			Python Function – Print
+	;pr		Python Function – Print
 	;pltdt		Python Module – Adspy Shared Utilities - plot_decision_tree
-	;;x			Python Module – exit()
+	;;x		Python Module – exit()
 
 Sci-Kit Learn Macros:
 
@@ -176,35 +176,35 @@ Terminal Macros:
 
 	Trigger		Macro
 		
-	;cl			Terminal – Clear
+	;cl		Terminal – Clear
 	;echo		Terminal – Echo Text to File
 	;znano		Terminal – Edit Oh My Zsh Nano File
 	;find		Terminal – Find File
-	;;n			Terminal – nano
+	;;n		Terminal – nano
 	;pipin		Terminal – Pip Install Package
 	;pipuser	Terminal – Pip Install User Package
 	;pipcurr	Terminal – Pip Reinstall Current Version
-	;;q			Terminal – quit()
+	;;q		Terminal – quit()
 
 Text Macros:
 
 	Trigger		Macro
 		
-	⌘W			Text – Commenting - Highlight –> Comment
-	⌥X			Text – Cut Line of Text
-	F19			Text – End ) Go to Next Line
-	;;i			Text – File Extension - .ipynb
-	;;p			Text – File Extension - .py
-	;;t			Text – File Extension - .txt
-	;ut			Text – utf-8 strict
+	⌘W		Text – Commenting - Highlight –> Comment
+	⌥X		Text – Cut Line of Text
+	F19		Text – End ) Go to Next Line
+	;;i		Text – File Extension - .ipynb
+	;;p		Text – File Extension - .py
+	;;t		Text – File Extension - .txt
+	;ut		Text – utf-8 strict
 
 Virtualenvwrapper Macros:
 
 	Trigger		Macro
 		
-	;av			Virtualenvwrapper – Activate Virtual Environment
+	;av		Virtualenvwrapper – Activate Virtual Environment
 	;virw		Virtualenvwrapper – cd workon_home
 	;vircd		Virtualenvwrapper – cdvirtualenv
-	;da			Virtualenvwrapper – Deactivate Virtual Environment
+	;da		Virtualenvwrapper – Deactivate Virtual Environment
 	;mkvir		Virtualenvwrapper – mkvirtualenv
 	;virset		Virtualenvwrapper – setvirtualenvproject
