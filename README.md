@@ -110,7 +110,7 @@ Scrapy Macros:
 	Scrapy – scrapy shell
 	Scrapy – scrapy startproject 
 	Scrapy – Xpath - .extract()
-	Scrapy – Xpath - /@href()
+	Scrapy – Xpath - /@href
 	Scrapy – Xpath - /text()
 	Scrapy – Xpath - resonse.xpath('
 
