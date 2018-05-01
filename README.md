@@ -1,5 +1,5 @@
 # essential_macros_for_data_science
-I used Keybaord Maestro to create shortcuts for essential data science functions.
+I used Keybaord Maestro to create shortcuts for essential data science functions. Parameters to all functions are provided as fill-in-the-blanks. Macros and macro triggers can be edited using the Keyboard Maestro desktop app.
 
 Visit https://www.keyboardmaestro.com/main/ to download compatible software for running macros.
 
