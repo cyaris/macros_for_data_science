@@ -11,6 +11,7 @@ Git Macros:
 	Git – Remove Local Git Repository
 	Git – Undo Commits - reset HEAD~
 	Git Lfs – git lfs migrate import --everything --
+	Git Lfs – git lfs track '*.' - File Extension
 
 Matplotlib & Seaborn Macros: 
 
@@ -63,8 +64,18 @@ Pandas & Numpy Macros:
 
 Plotly & Cufflinks Macros:
 
+	Plotly & Cufflinks – go.scatter Line Plot
+	Plotly & Cufflinks – go.scatter Lines + Markers Plot
+	Plotly & Cufflinks – go.scatter Marker
+	Plotly & Cufflinks – go.scatter Marker with Color Scale
 	Plotly & Cufflinks – Import Libraries - Offline
+	Plotly & Cufflinks – iPlot - 3D Surface
+	Plotly & Cufflinks – iPlot - Bar
+	Plotly & Cufflinks – iPlot - Box
+	Plotly & Cufflinks – iPlot - Bubble
+	Plotly & Cufflinks – iPlot - Histogram
 	Plotly & Cufflinks – iPlot - Scatter
+	Plotly & Cufflinks – iPlot - Spread
 
 Python (General) Macros:
 
@@ -78,7 +89,10 @@ Python (General) Macros:
 	Python Application – jupyter notebook
 	Python Application – nosetests
 	Python Application – pyscaffolding
+	Python Function – def __init__(self):
+	Python Function – Print
 	Python Module – Adspy Shared_Utilities - plot_decision_tree
+	Python Module – exit()
 
 Sci-Kit Learn Macros:
 
@@ -120,6 +134,7 @@ Terminal Macros:
 	Terminal – Echo Text to File
 	Terminal – Edit Oh My Zsh Nano File
 	Terminal – Find File
+	Terminal – nano
 	Terminal – quit()
 
 Text Macros:
