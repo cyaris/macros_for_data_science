@@ -287,7 +287,7 @@
 				<key>CreationDate</key>
 				<real>546799448.10305297</real>
 				<key>ModificationDate</key>
-				<real>546800381.57774901</real>
+				<real>546835547.16384101</real>
 				<key>Name</key>
 				<string>Text – File Extension - .ipynb</string>
 				<key>Triggers</key>
@@ -298,7 +298,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;;ip</string>
+						<string>;;i</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -393,7 +393,7 @@
 				<key>CreationDate</key>
 				<real>539823956.79668295</real>
 				<key>ModificationDate</key>
-				<real>546800385.87438595</real>
+				<real>546827467.60876</real>
 				<key>Name</key>
 				<string>Text – File Extension - .txt</string>
 				<key>Triggers</key>
