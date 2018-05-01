@@ -45,8 +45,10 @@
 				</array>
 				<key>CreationDate</key>
 				<real>541362697.15877998</real>
+				<key>IsActive</key>
+				<false/>
 				<key>ModificationDate</key>
-				<real>546826276.69795406</real>
+				<real>546826289.93836904</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – Activate Virtual Environment</string>
 				<key>Triggers</key>
@@ -300,29 +302,13 @@
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
-						<string>mkvirtualenv</string>
-					</dict>
-					<dict>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
+						<string>mkvirtualenv </string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546764594.26867104</real>
 				<key>ModificationDate</key>
-				<real>546764601.65705895</real>
+				<real>546827117.66259396</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – mkvirtualenv</string>
 				<key>Triggers</key>
