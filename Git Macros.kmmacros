@@ -83,7 +83,7 @@
 				<key>CreationDate</key>
 				<real>546763798.10424197</real>
 				<key>ModificationDate</key>
-				<real>546800744.40348303</real>
+				<real>546888445.48817694</real>
 				<key>Name</key>
 				<string>Git – git commit -m '</string>
 				<key>Triggers</key>
@@ -94,7 +94,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;gitcom</string>
+						<string>;gitc</string>
 					</dict>
 				</array>
 				<key>UID</key>
