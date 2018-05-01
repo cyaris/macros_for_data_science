@@ -20,7 +20,235 @@
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
+						<string>trace = go.Scatter(x = '________', y = '________',
+    mode = 'lines',
+    name = 'lines')
+
+data = [trace]
+py.iplot(data, filename = 'scatter-mode')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827718.14427602</real>
+				<key>ModificationDate</key>
+				<real>546828505.20579505</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – go.scatter Line Plot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>go.scatline</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>52C40B71-AC91-41B7-9DCE-F4BF5BE1A282</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>trace = go.Scatter(x = '________', y = '________',
+    mode = 'lines+markers',
+    name = 'lines+markers')
+
+data = [trace]
+py.iplot(data, filename = 'scatter-mode')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827717.45834398</real>
+				<key>ModificationDate</key>
+				<real>546828509.74007905</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – go.scatter Lines + Markers Plot</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>go.scatmline</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>66E90C9E-1E6D-4F64-A103-585766845FD6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>trace = go.Scatter(x = '________', y = '________',
+    mode = 'markers',
+    name = 'markers')
+
+data = [trace]
+py.iplot(data, filename = 'scatter-mode')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827716.01771903</real>
+				<key>ModificationDate</key>
+				<real>546828513.47426403</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – go.scatter Marker</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>go.scatmark</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9A5A1E6B-34EB-4925-A6C9-9AAC9EC3C7E2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>trace = go.Scatter(x = '________', y = '________',
+    name = '________',
+    mode = 'markers',
+    marker = dict(
+        size = 10,
+        color = np.random.randn(500),
+        colorscale='Viridis',
+        showscale=True)
+
+data = [trace]
+
+layout = dict(title = 'Styled Scatter',
+              yaxis = dict(zeroline = False),
+              xaxis = dict(zeroline = False))
+
+fig = dict(data = data, layout = layout)
+py.iplot(fig, filename = 'styled-scatter-with-color-scale')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827717.79873598</real>
+				<key>ModificationDate</key>
+				<real>546828552.34386897</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – go.scatter Marker with Color Scale</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>go.scatcmark</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>11DF3465-DF3B-4BCE-9E97-11FDCAFEC9C2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
 						<string>import plotly.plotly as py
+import plotly.graph_objects as go
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import cufflinks as cf
 
@@ -31,7 +259,7 @@ cf.go_offline()</string>
 				<key>CreationDate</key>
 				<real>546765207.78070998</real>
 				<key>ModificationDate</key>
-				<real>546812088.25346506</real>
+				<real>546827792.06633103</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – Import Libraries - Offline</string>
 				<key>Triggers</key>
@@ -74,14 +302,260 @@ cf.go_offline()</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
+						<string>df3 = pd.DataFrame({'x':['________'], 'y': ['________'], 'z': ['________']})
+df3.iplot(kind = 'surface', colorscale = 'rdylbu')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828785.67644203</real>
+				<key>ModificationDate</key>
+				<real>546829172.87662101</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - 3D Surface</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplot3d</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5C268BE3-45F4-40EA-AAAC-885A41F1E066</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df.iplot(kind = 'bar', x = '________', y = '________')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828629.79883397</real>
+				<key>ModificationDate</key>
+				<real>546828718.49965703</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Bar</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplotbar</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>31055D08-022C-456C-86DA-18CDA72242AA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df['________'].iplot(kind = 'box', x = '________', y = '________')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828732.15588295</real>
+				<key>ModificationDate</key>
+				<real>546828758.31327796</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Box</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplotbox</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1C1239B3-84EF-4A9E-8F06-EB1DF13BA7AA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df.iplot(kind = 'bubble', x = '________', y = '________', size = '________')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828982.33420002</real>
+				<key>ModificationDate</key>
+				<real>546829136.19742095</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Bubble</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplotbub</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5913E526-3145-4014-A60D-494108E6AF8E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df['________'].iplot(kind = 'hist', bins = 25)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828903.844087</real>
+				<key>ModificationDate</key>
+				<real>546828921.45287704</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Histogram</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplothist</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AE445C26-A51E-4B01-9E73-052F47F55D9B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
 						<string>df.iplot(kind = 'scatter', x = '_______',
-              y = '_______', size = 'C')</string>
+              y = '_______', mode = 'markers', size = 10)</string>
 					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546807869.62213099</real>
 				<key>ModificationDate</key>
-				<real>546819937.74386001</real>
+				<real>546829145.10758495</real>
 				<key>Name</key>
 				<string>Plotly &amp; Cufflinks – iPlot - Scatter</string>
 				<key>Triggers</key>
@@ -97,6 +571,55 @@ cf.go_offline()</string>
 				</array>
 				<key>UID</key>
 				<string>4626763D-5673-4830-9666-C63710F55DCD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Plotly &amp; Cufflinks</string>
+		<key>ToggleMacroUID</key>
+		<string>DE03CC6A-8F53-47E6-9CD9-D4032FACD831</string>
+		<key>UID</key>
+		<string>9B6382A3-FECC-46C3-99C0-864119DEE703</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546807746.94177198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Numbers.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df[['________','________']].iplot(kind = 'spread')</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546828880.210145</real>
+				<key>ModificationDate</key>
+				<real>546828895.89297795</real>
+				<key>Name</key>
+				<string>Plotly &amp; Cufflinks – iPlot - Spread</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;iplotspread</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>EC6CDB47-C6FF-4CAF-8371-5C4FD8586FED</string>
 			</dict>
 		</array>
 		<key>Name</key>
