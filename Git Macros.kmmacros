@@ -295,7 +295,7 @@
 				<key>CreationDate</key>
 				<real>546764517.07348096</real>
 				<key>ModificationDate</key>
-				<real>546812958.53117096</real>
+				<real>546827015.34667301</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs migrate import --everything --</string>
 				<key>Triggers</key>
@@ -306,11 +306,80 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;gitmigall</string>
+						<string>;lfsmigall</string>
 					</dict>
 				</array>
 				<key>UID</key>
 				<string>B8ACABA7-657F-4634-9D24-0D20FF2CAEE7</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Git</string>
+		<key>ToggleMacroUID</key>
+		<string>9641152E-50DD-410D-B13B-F086F11FF4BD</string>
+		<key>UID</key>
+		<string>F0B4B40C-E434-4BA6-B5CF-1FEFE97F87D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766310.56701398</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/GitHub Desktop.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>git lfs track '*.'</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827019.73890102</real>
+				<key>ModificationDate</key>
+				<real>546827244.13528597</real>
+				<key>Name</key>
+				<string>Git Lfs – git lfs track '*.' - File Extension</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;lfstr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A770B13C-2CEE-449C-973F-733063088AEA</string>
 			</dict>
 		</array>
 		<key>Name</key>
