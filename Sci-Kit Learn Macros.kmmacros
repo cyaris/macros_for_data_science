@@ -79,7 +79,7 @@ y_pred = rfc.predict(X_test)</string>
 				<key>CreationDate</key>
 				<real>546804119.41364098</real>
 				<key>ModificationDate</key>
-				<real>546804131.18884897</real>
+				<real>546899578.59423697</real>
 				<key>Name</key>
 				<string>Sci-Kit Learn – Ensemble - Random Forest</string>
 				<key>Triggers</key>
@@ -88,7 +88,7 @@ y_pred = rfc.predict(X_test)</string>
 						<key>MacroTriggerType</key>
 						<string>TypedString</string>
 						<key>SimulateDeletes</key>
-						<true/>
+						<false/>
 						<key>TypedString</key>
 						<string>;syrf</string>
 					</dict>

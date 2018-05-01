@@ -2183,7 +2183,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808394.50882006</real>
 				<key>ModificationDate</key>
-				<real>546885786.06616402</real>
+				<real>546901230.77069998</real>
 				<key>Name</key>
 				<string>Pandas – df.index.name</string>
 				<key>Triggers</key>
@@ -2194,7 +2194,7 @@ color = 'DarkBlue', label = '_______');</string>
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;dfindexn</string>
+						<string>;dfinname</string>
 					</dict>
 				</array>
 				<key>UID</key>

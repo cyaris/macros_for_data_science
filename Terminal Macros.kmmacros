@@ -398,29 +398,13 @@
 						<key>Text</key>
 						<string>nano </string>
 					</dict>
-					<dict>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546827302.28842604</real>
 				<key>ModificationDate</key>
-				<real>546827314.076401</real>
+				<real>546888723.71970999</real>
 				<key>Name</key>
-				<string>Terminal – nano</string>
+				<string>Terminal – Nano</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -577,7 +561,7 @@
 				<key>CreationDate</key>
 				<real>546800598.56028295</real>
 				<key>ModificationDate</key>
-				<real>546884476.16001201</real>
+				<real>546901058.39913702</real>
 				<key>Name</key>
 				<string>Terminal – Pip Reinstall Current Version</string>
 				<key>Triggers</key>
@@ -588,7 +572,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;pipcurrent</string>
+						<string>;pipcurr</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -646,9 +630,9 @@
 				<key>CreationDate</key>
 				<real>540273587.413517</real>
 				<key>ModificationDate</key>
-				<real>546764318.94745398</real>
+				<real>546888729.27724195</real>
 				<key>Name</key>
-				<string>Terminal – quit()</string>
+				<string>Terminal – Quit()</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
