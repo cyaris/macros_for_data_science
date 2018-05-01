@@ -127,6 +127,8 @@ y_pred = rfc.predict(X_test)</string>
 # from sklearn.preprocessing import StandardScaler
 # from sklearn.preprocessing import MinMaxScaler
 # from sklearn.preprocessing import PolynomialFeatures
+# from sklearn.preprocessing import RobustScaler
+# from sklearn.preprocessing.data import QuantileTransformer
 # from sklearn.cluster import KMeans
 # from sklearn.linear_model import Lasso
 # from sklearn.linear_model import LogisticRegression
@@ -144,7 +146,7 @@ from sklearn import metrics</string>
 				<key>CreationDate</key>
 				<real>546765207.78070998</real>
 				<key>ModificationDate</key>
-				<real>546799185.43186998</real>
+				<real>546825661.62447298</real>
 				<key>Name</key>
 				<string>Sci-Kit Learn – Import Libraries</string>
 				<key>Triggers</key>
@@ -717,57 +719,6 @@ y_pred = knn.predict(X_test_scaled)
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
-						<string>polypoly  ==  PolynomialFeaturesPolynomi (degree = 2)
-X_F1_poly = poly.fit_transform(X_F1)
-X_train, X_test, y_train, y_test = train_test_split(X_F1, y_F1, test_size = 0.4, random_state = 101)</string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546804524.29803002</real>
-				<key>ModificationDate</key>
-				<real>546804559.92111897</real>
-				<key>Name</key>
-				<string>Sci-Kit Learn – Processing - Polynomial Features</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;sypf</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>0DE97FED-7F00-4FC9-8FDA-607157AE0C1C</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Sci-Kit Learn</string>
-		<key>ToggleMacroUID</key>
-		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
-		<key>UID</key>
-		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766262.64272201</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByPasting</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>Text</key>
 						<string>scaler = MinMaxScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)</string>
@@ -776,9 +727,9 @@ X_test_scaled = scaler.transform(X_test)</string>
 				<key>CreationDate</key>
 				<real>546799075.08138096</real>
 				<key>ModificationDate</key>
-				<real>546802818.69166696</real>
+				<real>546825536.68779898</real>
 				<key>Name</key>
-				<string>Sci-Kit Learn – Scaler - MinMax Scaler</string>
+				<string>Sci-Kit Learn – Preprocessing - MinMax Scaler</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
@@ -819,6 +770,161 @@ X_test_scaled = scaler.transform(X_test)</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
 						<key>Text</key>
+						<string>polypoly  ==  PolynomialFeaturesPolynomi (degree = 2)
+X_F1_poly = poly.fit_transform(X_F1)
+X_train, X_test, y_train, y_test = train_test_split(X_F1, y_F1, test_size = 0.4, random_state = 101)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546804524.29803002</real>
+				<key>ModificationDate</key>
+				<real>546825551.50769401</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Preprocessing - Polynomial Features</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sypf</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0DE97FED-7F00-4FC9-8FDA-607157AE0C1C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>qt = QuantileTransformer(n_quantiles = 10, output_distribution = 'uniform', random_state = 101)
+X_train_scaled = qt.fit_transform(X_train)
+X_test_scaled = qt.transform(X_test)
+
+#output_distribution = 'normal'</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546825667.57287002</real>
+				<key>ModificationDate</key>
+				<real>546825937.16375399</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Preprocessing - Quantile Transformer</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syqt</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AF723343-96E3-4A82-A2B5-DA167F4310D0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>scaler = RobustScaler()
+X_train_scaled = scaler.fit_transform(X_train)
+X_test_scaled = scaler.transform(X_test)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546825556.49220705</real>
+				<key>ModificationDate</key>
+				<real>546825596.11892104</real>
+				<key>Name</key>
+				<string>Sci-Kit Learn – Preprocessing - Robust Scaler</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;syrsc</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9A51D8BE-C391-459E-8865-FAA07AA635FA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Sci-Kit Learn</string>
+		<key>ToggleMacroUID</key>
+		<string>F237CE29-CF54-4D87-A325-367FB73789A9</string>
+		<key>UID</key>
+		<string>3033EDFA-78D2-4D6A-91D7-7FC577D086DD</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766262.64272201</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Utilities/Grapher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
 						<string>scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)</string>
@@ -827,9 +933,9 @@ X_test_scaled = scaler.transform(X_test)</string>
 				<key>CreationDate</key>
 				<real>546763922.00241804</real>
 				<key>ModificationDate</key>
-				<real>546802822.61791897</real>
+				<real>546825540.68266106</real>
 				<key>Name</key>
-				<string>Sci-Kit Learn – Scaler - Standard Scaler</string>
+				<string>Sci-Kit Learn – Preprocessing - Standard Scaler</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
