@@ -618,6 +618,112 @@ import seaborn as sns
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
+						<string>def __init__(self):</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827512.12441099</real>
+				<key>ModificationDate</key>
+				<real>546827534.73689604</real>
+				<key>Name</key>
+				<string>Python Function – def __init__(self):</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;definit</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F7C72416-B966-48CC-8E55-D414BDB04E40</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Python (General)</string>
+		<key>ToggleMacroUID</key>
+		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
+		<key>UID</key>
+		<string>478B84AB-5558-4361-B576-8511A9229923</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766106.37849796</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>print(</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827591.44790995</real>
+				<key>ModificationDate</key>
+				<real>546827610.17840695</real>
+				<key>Name</key>
+				<string>Python Function – Print</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;pr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>FA822E55-A943-419D-8BAB-D47ED5A378FA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Python (General)</string>
+		<key>ToggleMacroUID</key>
+		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
+		<key>UID</key>
+		<string>478B84AB-5558-4361-B576-8511A9229923</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766106.37849796</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
 						<string>plot_decision_tree(dtree, X.columns, y.unique())</string>
 					</dict>
 					<dict>
@@ -656,6 +762,59 @@ import seaborn as sns
 				</array>
 				<key>UID</key>
 				<string>0A7EA3FE-45F5-48D8-BE32-85D36FA179A8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Python (General)</string>
+		<key>ToggleMacroUID</key>
+		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
+		<key>UID</key>
+		<string>478B84AB-5558-4361-B576-8511A9229923</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766106.37849796</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByTyping</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>Text</key>
+						<string>exit()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546827448.71656203</real>
+				<key>ModificationDate</key>
+				<real>546827480.16244197</real>
+				<key>Name</key>
+				<string>Python Module – exit()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;;x</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C44F1239-6167-4EAB-9212-5CE49A884187</string>
 			</dict>
 		</array>
 		<key>Name</key>
