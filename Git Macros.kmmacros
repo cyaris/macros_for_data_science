@@ -401,7 +401,7 @@
 				<key>CreationDate</key>
 				<real>546836830.10315299</real>
 				<key>ModificationDate</key>
-				<real>546836847.28123498</real>
+				<real>546884435.84478402</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs ls-files</string>
 				<key>Triggers</key>
@@ -412,7 +412,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;lfslk</string>
+						<string>;lflk</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -454,7 +454,7 @@
 				<key>CreationDate</key>
 				<real>546764517.07348096</real>
 				<key>ModificationDate</key>
-				<real>546827015.34667301</real>
+				<real>546884432.724419</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs migrate import --everything --</string>
 				<key>Triggers</key>
@@ -465,7 +465,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;lfsmigall</string>
+						<string>;lfmigall</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -523,7 +523,7 @@
 				<key>CreationDate</key>
 				<real>546827019.73890102</real>
 				<key>ModificationDate</key>
-				<real>546836892.77699995</real>
+				<real>546884430.34123397</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs track '*.' - File Extension</string>
 				<key>Triggers</key>
@@ -534,7 +534,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;lfst</string>
+						<string>;lft</string>
 					</dict>
 				</array>
 				<key>UID</key>
@@ -576,7 +576,7 @@
 				<key>CreationDate</key>
 				<real>546836896.79331505</real>
 				<key>ModificationDate</key>
-				<real>546836913.53621995</real>
+				<real>546884426.50653994</real>
 				<key>Name</key>
 				<string>Git Lfs – git lfs untrack '</string>
 				<key>Triggers</key>
@@ -587,7 +587,7 @@
 						<key>SimulateDeletes</key>
 						<true/>
 						<key>TypedString</key>
-						<string>;lfsut</string>
+						<string>;lfut</string>
 					</dict>
 				</array>
 				<key>UID</key>

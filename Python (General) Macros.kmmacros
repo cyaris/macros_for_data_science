@@ -77,165 +77,6 @@ import seaborn as sns
 						<key>TargetingType</key>
 						<string>Front</string>
 						<key>Text</key>
-						<string>pip install </string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546764560.85985696</real>
-				<key>ModificationDate</key>
-				<real>546799262.70589399</real>
-				<key>Name</key>
-				<string>Python – Pip Install Package</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pipin</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>8FE6E436-894D-4C14-BBB9-747FC1C72F4E</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Python (General)</string>
-		<key>ToggleMacroUID</key>
-		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
-		<key>UID</key>
-		<string>478B84AB-5558-4361-B576-8511A9229923</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766106.37849796</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
-						<string>pip install --user </string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>541371413.41917098</real>
-				<key>ModificationDate</key>
-				<real>546799267.53982794</real>
-				<key>Name</key>
-				<string>Python – Pip Install User Package</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pipuser</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>7B38E298-AAB8-4016-AC30-10DA21A67514</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Python (General)</string>
-		<key>ToggleMacroUID</key>
-		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
-		<key>UID</key>
-		<string>478B84AB-5558-4361-B576-8511A9229923</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766106.37849796</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
-						<string>pip install --upgrade --force-reinstall </string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546800598.56028295</real>
-				<key>ModificationDate</key>
-				<real>546800611.92995906</real>
-				<key>Name</key>
-				<string>Python – Pip Reinstall Current Version</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pipcurrent</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>17F0AF42-895A-4219-9A39-72EA6797C969</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Python (General)</string>
-		<key>ToggleMacroUID</key>
-		<string>9FFE8F2E-20D1-443A-B56A-804EEA5FBEA0</string>
-		<key>UID</key>
-		<string>478B84AB-5558-4361-B576-8511A9229923</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766106.37849796</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/Python Launcher.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
 						<string>pydoc </string>
 					</dict>
 				</array>
@@ -610,13 +451,9 @@ import seaborn as sns
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>def __init__(self):</string>
 					</dict>
@@ -624,7 +461,7 @@ import seaborn as sns
 				<key>CreationDate</key>
 				<real>546827512.12441099</real>
 				<key>ModificationDate</key>
-				<real>546827534.73689604</real>
+				<real>546885856.90798295</real>
 				<key>Name</key>
 				<string>Python Function – def __init__(self):</string>
 				<key>Triggers</key>
@@ -716,13 +553,9 @@ import seaborn as sns
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>plot_decision_tree(dtree, X.columns, y.unique())</string>
 					</dict>
@@ -746,7 +579,7 @@ import seaborn as sns
 				<key>CreationDate</key>
 				<real>546764962.29913902</real>
 				<key>ModificationDate</key>
-				<real>546836536.75559402</real>
+				<real>546885860.25762296</real>
 				<key>Name</key>
 				<string>Python Module – Adspy Shared Utilities - plot_decision_tree</string>
 				<key>Triggers</key>

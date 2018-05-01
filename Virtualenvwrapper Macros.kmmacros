@@ -97,27 +97,11 @@
 						<key>Text</key>
 						<string>cd $WORKON_HOME</string>
 					</dict>
-					<dict>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>541384290.46283805</real>
 				<key>ModificationDate</key>
-				<real>546820124.84029996</real>
+				<real>546885917.96368802</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – cd workon_home</string>
 				<key>Triggers</key>
@@ -166,27 +150,11 @@
 						<key>Text</key>
 						<string>cdvirtualenv</string>
 					</dict>
-					<dict>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546764642.08108103</real>
 				<key>ModificationDate</key>
-				<real>546820112.62313795</real>
+				<real>546885914.73583806</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – cdvirtualenv</string>
 				<key>Triggers</key>
@@ -357,27 +325,11 @@
 						<key>Text</key>
 						<string>setvirtualenvproject</string>
 					</dict>
-					<dict>
-						<key>IsDisclosed</key>
-						<false/>
-						<key>KeyCode</key>
-						<integer>36</integer>
-						<key>MacroActionType</key>
-						<string>SimulateKeystroke</string>
-						<key>Modifiers</key>
-						<integer>0</integer>
-						<key>ReleaseAll</key>
-						<false/>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-					</dict>
 				</array>
 				<key>CreationDate</key>
 				<real>546764648.62676895</real>
 				<key>ModificationDate</key>
-				<real>546820120.07043695</real>
+				<real>546885907.50157797</real>
 				<key>Name</key>
 				<string>Virtualenvwrapper – setvirtualenvproject</string>
 				<key>Triggers</key>

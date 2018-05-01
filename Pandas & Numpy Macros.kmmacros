@@ -16,13 +16,1526 @@
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
+						<key>Text</key>
+						<string>.argmax()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885259.69375801</real>
+				<key>ModificationDate</key>
+				<real>546885287.28467798</real>
+				<key>Name</key>
+				<string>Numpy  – .argmax()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;amax</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>76C1D4D3-AEBC-4A7D-B81D-48CE12F8CC2E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.min()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885259.69379997</real>
+				<key>ModificationDate</key>
+				<real>546885293.95209503</real>
+				<key>Name</key>
+				<string>Numpy  – .argmin()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;amin</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>FAF25D1E-987C-4791-A05B-895D989D43D8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.copy()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885637.724244</real>
+				<key>ModificationDate</key>
+				<real>546885648.63940096</real>
+				<key>Name</key>
+				<string>Numpy  – .copy()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;copy</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>5EA25EBA-00CB-4D6D-B358-B7252F7FD8EF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.max()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885220.32068706</real>
+				<key>ModificationDate</key>
+				<real>546885289.18540704</real>
+				<key>Name</key>
+				<string>Numpy  – .max()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;max</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C7965478-92A7-4A89-923F-CA0DFCCDB729</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.mean()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885576.65501404</real>
+				<key>ModificationDate</key>
+				<real>546885590.85035396</real>
+				<key>Name</key>
+				<string>Numpy  – .mean()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;mean</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>979BC4C9-E4DE-4611-B9F2-B8F5C68C7DE5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.min()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885170.32712197</real>
+				<key>ModificationDate</key>
+				<real>546885276.07533503</real>
+				<key>Name</key>
+				<string>Numpy  – .min()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;min</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C566B008-864D-41E7-A9B1-7DEA74720D89</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>.sum()</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885557.63343704</real>
+				<key>ModificationDate</key>
+				<real>546885571.02675498</real>
+				<key>Name</key>
+				<string>Numpy  – .sum()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sum</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>DBECA409-B5AF-4DA5-B02C-BE898ED84BB1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>arr.reshape(, )</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
 						<key>TargetApplication</key>
 						<dict/>
 						<key>TargetingType</key>
 						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885108.89694202</real>
+				<key>ModificationDate</key>
+				<real>546885338.23697495</real>
+				<key>Name</key>
+				<string>Numpy – arr.reshape()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;npreshape</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9F07546B-5940-4FCC-AABE-B567C4A214EB</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>arr = np.arange(, )</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884635.67880297</real>
+				<key>ModificationDate</key>
+				<real>546885073.81468594</real>
+				<key>Name</key>
+				<string>Numpy – np.arange(, )</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;npra</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B1341700-C3A0-4CB4-8C49-F81ADAA90305</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>arr = np.array(________)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884582.43992603</real>
+				<key>ModificationDate</key>
+				<real>546885082.44971704</real>
+				<key>Name</key>
+				<string>Numpy – np.array()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;nparr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>525BB3D9-BF30-4E63-85CE-8451F93FC7E8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.exp()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>Press</key>
+						<string>Release</string>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885421.32840204</real>
+				<key>ModificationDate</key>
+				<real>546885742.64123702</real>
+				<key>Name</key>
+				<string>Numpy – np.exp()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;exp</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1C11A14A-F30D-4A9F-9993-43C79C8796BE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.eye()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884825.89631104</real>
+				<key>ModificationDate</key>
+				<real>546884850.63428497</real>
+				<key>Name</key>
+				<string>Numpy – np.eye()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;npi</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C1116570-5536-4E0D-A920-7DA403D94D08</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.linspace((, , ))</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884777.56128502</real>
+				<key>ModificationDate</key>
+				<real>546884810.38296103</real>
+				<key>Name</key>
+				<string>Numpy – np.linspace((, , ))</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;nplin</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>05FD5516-9189-4284-B4AA-289C13A7D193</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.log()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>Press</key>
+						<string>Release</string>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885470.03907895</real>
+				<key>ModificationDate</key>
+				<real>546885492.48923504</real>
+				<key>Name</key>
+				<string>Numpy – np.log()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;log</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7B832D28-A1D4-4C8B-9F5D-D08AA4F22B04</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.ones((, ))</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884738.42981195</real>
+				<key>ModificationDate</key>
+				<real>546884750.11713696</real>
+				<key>Name</key>
+				<string>Numpy – np.ones((, ))</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;np1</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8B1F0F15-F432-472C-AF0E-3CAE11CE1B93</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.random.rand()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884870.47841704</real>
+				<key>ModificationDate</key>
+				<real>546884883.855901</real>
+				<key>Name</key>
+				<string>Numpy – np.random.rand()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;nprand</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>393838C2-0EA9-4560-96D3-29057CD01318</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.random.randint(, )</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885008.00783896</real>
+				<key>ModificationDate</key>
+				<real>546885030.06093395</real>
+				<key>Name</key>
+				<string>Numpy – np.random.randint()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;npintrand</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E2EF9BD8-0DD7-4703-824C-1208D19D09DA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.random.randn()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884932.14457905</real>
+				<key>ModificationDate</key>
+				<real>546884944.52703595</real>
+				<key>Name</key>
+				<string>Numpy – np.random.randn()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;npnrand</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F1340D14-A67C-4155-BBFC-EC20DAE5525A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.sin()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>Press</key>
+						<string>Release</string>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885477.46476996</real>
+				<key>ModificationDate</key>
+				<real>546885748.66030896</real>
+				<key>Name</key>
+				<string>Numpy – np.sin()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sin</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E3AF7AA4-AF1B-46CF-BEE9-4D8AA055A981</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.sqrt()</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>Press</key>
+						<string>Release</string>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546885347.90981698</real>
+				<key>ModificationDate</key>
+				<real>546885750.54869294</real>
+				<key>Name</key>
+				<string>Numpy – np.sqrt()</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;sqrt</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4914D5AE-06BC-4E84-9169-7389349F775B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>np.zeros((, ))</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>KeyCode</key>
+						<integer>123</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>196608</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546884696.51246798</real>
+				<key>ModificationDate</key>
+				<real>546884735.52629602</real>
+				<key>Name</key>
+				<string>Numpy – np.zeros((, ))</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;np0</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3EB325D2-BC5D-435D-94FC-F2FA29B0B940</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
 						<key>Text</key>
 						<string>.head()</string>
 					</dict>
@@ -30,7 +1543,7 @@
 				<key>CreationDate</key>
 				<real>546762599.585531</real>
 				<key>ModificationDate</key>
-				<real>546799018.03193295</real>
+				<real>546885754.42086697</real>
 				<key>Name</key>
 				<string>Pandas – .head()</string>
 				<key>Triggers</key>
@@ -118,13 +1631,9 @@
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>.value_counts()</string>
 					</dict>
@@ -132,7 +1641,7 @@
 				<key>CreationDate</key>
 				<real>546808443.12622201</real>
 				<key>ModificationDate</key>
-				<real>546808460.91123998</real>
+				<real>546885758.30646503</real>
 				<key>Name</key>
 				<string>Pandas – .value_counts()</string>
 				<key>Triggers</key>
@@ -148,165 +1657,6 @@
 				</array>
 				<key>UID</key>
 				<string>DD8F21CC-A534-422D-91D6-DA450ECB4392</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Pandas &amp; Numpy</string>
-		<key>ToggleMacroUID</key>
-		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
-		<key>UID</key>
-		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766111.91250098</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
-						<string>df['_______'] = df['_______'].astype(float)</string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546762851.53442502</real>
-				<key>ModificationDate</key>
-				<real>546819948.41925704</real>
-				<key>Name</key>
-				<string>Pandas – df astype(float)</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pdfloat</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>82A0962F-FD6F-4313-A861-C3CFAD3CAE4A</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Pandas &amp; Numpy</string>
-		<key>ToggleMacroUID</key>
-		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
-		<key>UID</key>
-		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766111.91250098</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
-						<string>df['_______'] = df['_______'].astype(int)</string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546762926.28916299</real>
-				<key>ModificationDate</key>
-				<real>546819951.55679202</real>
-				<key>Name</key>
-				<string>Pandas – df astype(int)</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pdint</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>7E9CF3C7-0223-414F-A960-EC47229F77C8</string>
-			</dict>
-		</array>
-		<key>Name</key>
-		<string>Pandas &amp; Numpy</string>
-		<key>ToggleMacroUID</key>
-		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
-		<key>UID</key>
-		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
-	</dict>
-	<dict>
-		<key>Activate</key>
-		<string>Normal</string>
-		<key>CreationDate</key>
-		<real>546766111.91250098</real>
-		<key>CustomIconData</key>
-		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
-		<key>Macros</key>
-		<array>
-			<dict>
-				<key>Actions</key>
-				<array>
-					<dict>
-						<key>Action</key>
-						<string>ByTyping</string>
-						<key>MacroActionType</key>
-						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
-						<key>Text</key>
-						<string>df['_______'] = df['_______'].astype(str)</string>
-					</dict>
-				</array>
-				<key>CreationDate</key>
-				<real>546762920.62741601</real>
-				<key>ModificationDate</key>
-				<real>546819956.12631404</real>
-				<key>Name</key>
-				<string>Pandas – df astype(str)</string>
-				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>TypedString</string>
-						<key>SimulateDeletes</key>
-						<true/>
-						<key>TypedString</key>
-						<string>;pdstr</string>
-					</dict>
-				</array>
-				<key>UID</key>
-				<string>0D892869-FBC6-4512-9CFF-646FD841B9E4</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -357,6 +1707,153 @@ color = 'DarkBlue', label = '_______');</string>
 				</array>
 				<key>UID</key>
 				<string>413433B9-366D-49DD-AE64-BB9F6ED3DE08</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df['_______'] = df['_______'].astype(float)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762851.53442502</real>
+				<key>ModificationDate</key>
+				<real>546885764.01781702</real>
+				<key>Name</key>
+				<string>Pandas – df.astype(float)</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;pdfloat</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>82A0962F-FD6F-4313-A861-C3CFAD3CAE4A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df['_______'] = df['_______'].astype(int)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762926.28916299</real>
+				<key>ModificationDate</key>
+				<real>546885765.76060605</real>
+				<key>Name</key>
+				<string>Pandas – df.astype(int)</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;pdint</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7E9CF3C7-0223-414F-A960-EC47229F77C8</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Pandas &amp; Numpy</string>
+		<key>ToggleMacroUID</key>
+		<string>82B86756-3F2C-415C-AA7B-6E5FB65AF411</string>
+		<key>UID</key>
+		<string>02574DEA-029B-4B47-A2CF-35F0CD89AB50</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>546766111.91250098</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Python 3.6/IDLE.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>df['_______'] = df['_______'].astype(str)</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>546762920.62741601</real>
+				<key>ModificationDate</key>
+				<real>546885769.43753803</real>
+				<key>Name</key>
+				<string>Pandas – df.astype(str)</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>;pdstr</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0D892869-FBC6-4512-9CFF-646FD841B9E4</string>
 			</dict>
 		</array>
 		<key>Name</key>
@@ -578,13 +2075,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df['_______'].groupby(['_______'])</string>
 					</dict>
@@ -592,7 +2085,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808342.55001199</real>
 				<key>ModificationDate</key>
-				<real>546837889.50578105</real>
+				<real>546885778.10731494</real>
 				<key>Name</key>
 				<string>Pandas – df.groupby</string>
 				<key>Triggers</key>
@@ -631,13 +2124,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df['_______'].groupby(['_______']).agg(aggregations)</string>
 					</dict>
@@ -645,7 +2134,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808269.73245704</real>
 				<key>ModificationDate</key>
-				<real>546837894.30915403</real>
+				<real>546885783.67441404</real>
 				<key>Name</key>
 				<string>Pandas – df.groupby().agg(aggregations)</string>
 				<key>Triggers</key>
@@ -684,13 +2173,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.index.name = '_______'</string>
 					</dict>
@@ -698,7 +2183,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546808394.50882006</real>
 				<key>ModificationDate</key>
-				<real>546837874.91652095</real>
+				<real>546885786.06616402</real>
 				<key>Name</key>
 				<string>Pandas – df.index.name</string>
 				<key>Triggers</key>
@@ -787,13 +2272,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.rename({'_______': '_______'}, axis = 'columns', inplace = True)</string>
 					</dict>
@@ -801,7 +2282,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546760107.132025</real>
 				<key>ModificationDate</key>
-				<real>546819987.12913704</real>
+				<real>546885791.40390396</real>
 				<key>Name</key>
 				<string>Pandas – df.rename</string>
 				<key>Triggers</key>
@@ -840,13 +2321,9 @@ color = 'DarkBlue', label = '_______');</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.replace({'_______': '_______'}, axis = 'columns', inplace = True)</string>
 					</dict>
@@ -854,7 +2331,7 @@ color = 'DarkBlue', label = '_______');</string>
 				<key>CreationDate</key>
 				<real>546764772.50435805</real>
 				<key>ModificationDate</key>
-				<real>546819989.740165</real>
+				<real>546885793.27880704</real>
 				<key>Name</key>
 				<string>Pandas – df.replace</string>
 				<key>Triggers</key>
@@ -1044,13 +2521,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.set_axis(['_______'], axis = 'columns', inplace = True)</string>
 					</dict>
@@ -1058,7 +2531,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546763106.38985896</real>
 				<key>ModificationDate</key>
-				<real>546820007.53810203</real>
+				<real>546885798.58197606</real>
 				<key>Name</key>
 				<string>Pandas – df.set_axis</string>
 				<key>Triggers</key>
@@ -1097,13 +2570,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.sort_values(by = '_______', ascending = False)</string>
 					</dict>
@@ -1111,7 +2580,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546763066.13515103</real>
 				<key>ModificationDate</key>
-				<real>546820009.40451097</real>
+				<real>546885800.04760396</real>
 				<key>Name</key>
 				<string>Pandas – df.sort</string>
 				<key>Triggers</key>
@@ -1150,13 +2619,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>aggregations = {
     '_______': 'count',
@@ -1168,7 +2633,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546762536.38981497</real>
 				<key>ModificationDate</key>
-				<real>546837925.25121498</real>
+				<real>546885803.47484303</real>
 				<key>Name</key>
 				<string>Pandas – pd.agg</string>
 				<key>Triggers</key>
@@ -1207,13 +2672,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df.Dataframe</string>
 					</dict>
@@ -1221,7 +2682,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546762498.60834301</real>
 				<key>ModificationDate</key>
-				<real>546813074.72280502</real>
+				<real>546885806.10673106</real>
 				<key>Name</key>
 				<string>Pandas – pd.df</string>
 				<key>Triggers</key>
@@ -1309,13 +2770,9 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<array>
 					<dict>
 						<key>Action</key>
-						<string>ByTyping</string>
+						<string>ByPasting</string>
 						<key>MacroActionType</key>
 						<string>InsertText</string>
-						<key>TargetApplication</key>
-						<dict/>
-						<key>TargetingType</key>
-						<string>Front</string>
 						<key>Text</key>
 						<string>df['_______'] = pd.to_datetime(df['_______'])</string>
 					</dict>
@@ -1323,7 +2780,7 @@ color = 'DarkGreen', label = '_______', ax = ax);</string>
 				<key>CreationDate</key>
 				<real>546808052.622527</real>
 				<key>ModificationDate</key>
-				<real>546837722.42951596</real>
+				<real>546885809.99969006</real>
 				<key>Name</key>
 				<string>Pandas – pd.to_datetime</string>
 				<key>Triggers</key>

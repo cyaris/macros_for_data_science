@@ -19,8 +19,15 @@ Git Macros:
 
 Matplotlib & Seaborn Macros: 
 
+	Matplotlib – axes.set_title('')
+	Matplotlib – axes.set_xlabel('')
+	Matplotlib – axes.set_ylabel('')
 	Matplotlib – fix, axes
 	Matplotlib – plt.figure
+	Matplotlib – plt.subplot(, , )
+	Matplotlib – plt.title('')
+	Matplotlib – plt.xlabel('')
+	Matplotlib – plt.ylabel('')
 	Seaborn – sns.barplot
 	Seaborn – sns.boxplot
 	Seaborn – sns.countplot
@@ -39,13 +46,23 @@ Matplotlib & Seaborn Macros:
 
 Pandas & Numpy Macros: 
 
+	Numpy – np.eye()
+	Numpy – np.linspace((, , ))
+	Numpy – np.log()
+	Numpy – np.ones((, ))
+	Numpy – np.random.rand()
+	Numpy – np.random.randint()
+	Numpy – np.random.randn()
+	Numpy – np.sin()
+	Numpy – np.sqrt()
+	Numpy – np.zeros((, ))
 	Pandas – .head()
 	Pandas – .isnull()
 	Pandas – .value_counts()
-	Pandas – df astype(float)
-	Pandas – df astype(int)
-	Pandas – df astype(str)
 	Pandas – df.area
+	Pandas – df.astype(float)
+	Pandas – df.astype(int)
+	Pandas – df.astype(str)
 	Pandas – df.bar
 	Pandas – df.box
 	Pandas – df.concat
@@ -85,9 +102,6 @@ Plotly & Cufflinks Macros:
 Python (General) Macros:
 
 	Python – Import Standard Visualiation Libraries
-	Python – Pip Install Package
-	Python – Pip Install User Package
-	Python – Pip Reinstall Current Version
 	Python – pydoc
 	Python – python3.6
 	Python Application – ipython
@@ -98,6 +112,7 @@ Python (General) Macros:
 	Python Function – Print
 	Python Module – Adspy Shared Utilities - plot_decision_tree
 	Python Module – exit()
+
 
 Sci-Kit Learn Macros:
 
@@ -140,6 +155,9 @@ Terminal Macros:
 	Terminal – Edit Oh My Zsh Nano File
 	Terminal – Find File
 	Terminal – nano
+	Terminal – Pip Install Package
+	Terminal – Pip Install User Package
+	Terminal – Pip Reinstall Current Version
 	Terminal – quit()
 
 
