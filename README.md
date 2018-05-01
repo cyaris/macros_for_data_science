@@ -73,6 +73,7 @@ Plotly & Cufflinks Macros:
 	Plotly & Cufflinks – iPlot - Bar
 	Plotly & Cufflinks – iPlot - Box
 	Plotly & Cufflinks – iPlot - Bubble
+	Plotly & Cufflinks – iPlot - Heatmap
 	Plotly & Cufflinks – iPlot - Histogram
 	Plotly & Cufflinks – iPlot - Scatter
 	Plotly & Cufflinks – iPlot - Spread
