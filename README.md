@@ -1,9 +1,9 @@
-# essential_macros_for_data_science
+# macros_for_data_science
 Used Keyboard Maestro to create shortcuts for data science functions. Parameters to all functions are provided as fill-in-the-blanks. Macros and macro triggers can be edited using the Keyboard Maestro desktop app.
 
 Visit https://www.keyboardmaestro.com/main/ to download compatible software for running macros.
 
-Git Macros:
+## Git Macros:
 
 	Trigger		Macro
 		
@@ -19,7 +19,7 @@ Git Macros:
 	;lft		Git Lfs – git lfs track '*.' - File Extension
 	;lfut		Git Lfs – git lfs untrack '
 
-Matplotlib & Seaborn Macros:
+## Matplotlib & Seaborn Macros:
 
 	Trigger		Macro
 		
@@ -48,7 +48,7 @@ Matplotlib & Seaborn Macros:
 	;snsswarm	Seaborn – sns.swarmplot
 	;snsviolin	Seaborn – sns.violinplot
 
-Pandas & Numpy Macros:
+## Pandas & Numpy Macros:
 
 	Trigger		Macro
 		
@@ -100,7 +100,7 @@ Pandas & Numpy Macros:
 	;pdrcsv		Pandas – pd.read_csv
 	;pddate		Pandas – pd.to_datetime
 
-Plotly & Cufflinks Macros:
+## Plotly & Cufflinks Macros:
 
 	Trigger			Macro
 		
@@ -118,7 +118,7 @@ Plotly & Cufflinks Macros:
 	;iplotscat		Plotly & Cufflinks – iPlot - Scatter
 	;iplotspread		Plotly & Cufflinks – iPlot - Spread
 
-Python (General) Macros:
+## Python (General) Macros:
 
 	Trigger		Macro
 		
@@ -134,7 +134,7 @@ Python (General) Macros:
 	;pltdt		Python Module – Adspy Shared Utilities - plot_decision_tree
 	;;x		Python Module – exit()
 
-Sci-Kit Learn Macros:
+## Sci-Kit Learn Macros:
 
 	Trigger		Macro
 		
@@ -161,7 +161,7 @@ Sci-Kit Learn Macros:
 	;sydt		Sci-Kit Learn – Tree - Decision Tree
 	;syopdt		Sci-Kit Learn – Tree - Decision Tree - Optimization - max_depth
 
-Scrapy Macros:
+## Scrapy Macros:
 
 	Trigger		Macro
 		
@@ -172,7 +172,7 @@ Scrapy Macros:
 	;sct		Scrapy – Xpath - /text()
 	;scrx		Scrapy – Xpath - resonse.xpath('
 
-Terminal Macros:
+## Terminal Macros:
 
 	Trigger		Macro
 		
@@ -186,7 +186,7 @@ Terminal Macros:
 	;pipcurr	Terminal – Pip Reinstall Current Version
 	;;q		Terminal – quit()
 
-Text Macros:
+## Text Macros:
 
 	Trigger		Macro
 		
@@ -198,7 +198,7 @@ Text Macros:
 	;;t		Text – File Extension - .txt
 	;ut		Text – utf-8 strict
 
-Virtualenvwrapper Macros:
+## Virtualenvwrapper Macros:
 
 	Trigger		Macro
 		
